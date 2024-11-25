@@ -1,64 +1,84 @@
 # Juridiq Full Stack Challenge
 
-## Objetivo do Teste
+## 🏆 Objetivo
 
-Avaliar as habilidades básicas do candidato em desenvolvimento fullstack utilizando Next.js e Node.js.
+Avaliar as habilidades do candidato no desenvolvimento fullstack utilizando **Next.js**, **Node.js** e **TypeScript**. Este desafio visa compreender sua capacidade de estruturar projetos, criar APIs e desenvolver interfaces modernas e funcionais.
 
-## Projeto
+---
 
-O desafio consiste em criar uma aplicação fullstack para gerenciar uma lista de livros. A aplicação terá um backend baseado no framework Fastify e um frontend construído com Next.js e Chakra-UI, utilizando TypeScript como linguagem principal.
+## 🚀 Descrição do Projeto
 
-## Instruções Gerais
+O desafio consiste em criar uma aplicação fullstack para gerenciar uma lista de livros. A aplicação terá um backend baseado no framework **Fastify** e um frontend construído com **Next.js** e **Chakra-UI**, utilizando **TypeScript** como linguagem principal.
 
-- **Tecnologias:** Next.js, Node.js e TypeScript.
-- **Framework:**
-  - Backend: Fastify
-  - Front-end: Chakra-UI
-- **Ferramentas:** Git para versionamento de código.
+---
 
-## Tarefas
+## 🛠️ Tecnologias e Ferramentas
 
-### 1. Configuração do Projeto
+- **Linguagem:** TypeScript
+- **Backend:** Fastify
+- **Frontend:** Next.js + Chakra-UI
+- **Versionamento de Código:** Git
 
-- Inicialize um novo projeto Node.js utilizando TypeScript.
-- Inicie um novo projeto com Next.js utilizando Chakra-ui e Typescript,
-- Configure as dependências necessárias.
+---
 
-### 2. Criação de uma API Simples
+## 📝 Tarefas
 
-- **Entidade:** `Book`
-  - **Campos:** `id` (string, UUID), `title` (string), `author` (string), `publishedYear` (number)
-- **Endpoints:**
-  - `POST /books`:Adiciona um novo livro.
-  - `GET /books`: Lista todos os livros.
+### 1. Configuração do Ambiente
 
-## Detalhamento dos Endpoints
+- Configure um novo projeto Node.js utilizando TypeScript.
+- Crie uma aplicação Next.js configurada com Chakra-UI e TypeScript.
+- Instale e configure as dependências necessárias para ambos os ambientes (frontend e backend).
 
-### POST /books
+### 2. Desenvolvimento do Backend (API)
 
-- **Descrição:** Adiciona um novo livro.
-- **Request Body:**
-  ```json
-  {
-    "title": "string",
-    "author": "string",
-    "publishedYear": "number"
-  }
-  ```
+Implemente uma API REST com os seguintes requisitos:
 
-### GET /books
+- **Entidade:** `Book`  
+  - **Campos:** 
+    - `id` (string, UUID)  
+    - `title` (string)  
+    - `author` (string)  
+    - `publishedYear` (number)  
 
-- **Descrição:** Lista todos os livros.
+#### Endpoints:
 
-##### BÔNUS:
+1. **`POST /books`**  
+   - Adiciona um novo livro.  
+   - **Request Body:**  
+     ```json
+     {
+       "title": "string",
+       "author": "string",
+       "publishedYear": "number"
+     }
+     ```
 
-- Descrição: Filtrar livros pelo `title`.
+2. **`GET /books`**  
+   - Retorna a lista de todos os livros cadastrados.  
+   - **Bônus:** Implemente um filtro opcional para buscar livros pelo campo `title`.  
 
-## Observações:
-- A interface e funcionalidades do Front-end fica a critério do desenvolvedor.
+### 3. Desenvolvimento do Frontend
 
-## Entrega
+- A interface do frontend é livre para criação e deve ser implementada utilizando **Next.js** e **Chakra-UI**.
+- Crie páginas que permitam:
+  - Cadastrar novos livros.
+  - Listar os livros já cadastrados.
+  - (Bônus) Filtrar os livros pelo título.
 
-O candidato deve enviar o código fonte através de um repositório no GitHub, para o seguinte e-mail: contato@juridiq.com.br
+---
 
-O repositório deve conter um README.md com instruções básicas sobre como configurar e executar o projeto.
+## 🏗️ Entrega
+
+- O código-fonte deve ser enviado através de um repositório público no **GitHub**.
+- Envie o link do repositório para o e-mail: **contato@juridiq.com.br**.
+- Certifique-se de incluir um **README.md** com:
+  - Instruções claras sobre como configurar e executar o projeto.
+  - Detalhes sobre as decisões tomadas durante o desenvolvimento.
+
+---
+
+## 📌 Observações
+
+- Utilize boas práticas de desenvolvimento, incluindo organização de código, estrutura de pastas e padronização.
+- A criatividade no design e funcionalidades do frontend será um diferencial.  
+- (Bônus) Forneça testes automatizados para os endpoints e/ou componentes.
