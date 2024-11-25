@@ -1,4 +1,4 @@
-# Juridiq Backend Challenge
+# Juridiq Full Stack Challenge
 
 ## Objetivo do Teste
 
