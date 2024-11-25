@@ -4,6 +4,10 @@
 
 Avaliar as habilidades básicas do candidato em desenvolvimento fullstack utilizando Next.js e Node.js.
 
+## Projeto
+
+O desafio consiste em criar uma aplicação fullstack para gerenciar uma lista de livros. A aplicação terá um backend baseado no framework Fastify e um frontend construído com Next.js e Chakra-UI, utilizando TypeScript como linguagem principal.
+
 ## Instruções Gerais
 
 - **Tecnologias:** Next.js, Node.js e TypeScript.
