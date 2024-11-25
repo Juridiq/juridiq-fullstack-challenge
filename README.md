@@ -2,12 +2,14 @@
 
 ## Objetivo do Teste
 
-Avaliar as habilidades básicas do candidato em desenvolvimento back-end utilizando Node.js.
+Avaliar as habilidades básicas do candidato em desenvolvimento fullstack utilizando Next.js e Node.js.
 
 ## Instruções Gerais
 
-- **Tecnologias:** Node.js com TypeScript.
-- **Framework:** Fastify (opcional).
+- **Tecnologias:** Next.js, Node.js e TypeScript.
+- **Framework:**
+  - Backend: Fastify
+  - Front-end: Chakra-UI
 - **Ferramentas:** Git para versionamento de código.
 
 ## Tarefas
@@ -15,6 +17,7 @@ Avaliar as habilidades básicas do candidato em desenvolvimento back-end utiliza
 ### 1. Configuração do Projeto
 
 - Inicialize um novo projeto Node.js utilizando TypeScript.
+- Inicie um novo projeto com Next.js utilizando Chakra-ui e Typescript,
 - Configure as dependências necessárias.
 
 ### 2. Criação de uma API Simples
@@ -46,6 +49,9 @@ Avaliar as habilidades básicas do candidato em desenvolvimento back-end utiliza
 ##### BÔNUS:
 
 - Descrição: Filtrar livros pelo `title`.
+
+## Observações:
+- A interface e funcionalidades do Front-end fica a critério do desenvolvedor.
 
 ## Entrega
 
